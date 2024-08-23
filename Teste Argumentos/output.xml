@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.10.12 on linux)" generated="2024-08-23T09:55:58.664062" rpa="false" schemaversion="5">
+<suite id="s1" name="Argumentos" source="/home/lucas/Documentos/Robot Testes/Teste Argumentos/Argumentos.robot">
+<test id="s1-t1" name="Rodar Argumentos" line="8">
+<kw name="Key com Argumentos">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-08-23T09:55:58.684859" level="INFO">${email} = Lucas.Franco@gmail.com</msg>
+<var>${email}</var>
+<arg>${nome}.${sobrenome}@gmail.com</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-08-23T09:55:58.684648" elapsed="0.000244"/>
+</kw>
+<return>
+<value>${email}</value>
+<status status="PASS" start="2024-08-23T09:55:58.684956" elapsed="0.000035"/>
+</return>
+<msg time="2024-08-23T09:55:58.685124" level="INFO">${email} = Lucas.Franco@gmail.com</msg>
+<var>${email}</var>
+<arg>Lucas</arg>
+<arg>Franco</arg>
+<status status="PASS" start="2024-08-23T09:55:58.684165" elapsed="0.000979"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${email}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-08-23T09:55:58.685275" elapsed="0.000157"/>
+</kw>
+<status status="PASS" start="2024-08-23T09:55:58.683717" elapsed="0.001843"/>
+</test>
+<status status="PASS" start="2024-08-23T09:55:58.664933" elapsed="0.020990"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Argumentos">Argumentos</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
